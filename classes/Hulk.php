@@ -3,6 +3,11 @@
 /**
  * Hero Incredible Hulk class
  */
+
+namespace Marvel\Classes;
+
+use Marvel\Interfaces\MarvelSuperhero;
+
 class Classes_Hulk implements Interfaces_MarvelSuperhero
 {
     private $phrases = ['Don\'t make me angry - you wouldn\'t like me when I\'m angry' , 'Grrrrrrrrrrr', 'Hulk Smash'];

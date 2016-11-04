@@ -3,7 +3,10 @@
 /**
  * Interface for Marvel package superheroes
  */
-interface Interfaces_MarvelSuperhero
+
+namespace Marvel\Interfaces;
+
+interface MarvelSuperhero
 {
     public function talk();
 
