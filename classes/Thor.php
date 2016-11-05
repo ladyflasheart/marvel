@@ -8,7 +8,7 @@ namespace Marvel\Classes;
 
 use Marvel\Interfaces\MarvelSuperhero;
 
-class Classes_Thor implements MarvelSuperhero
+class Thor implements MarvelSuperhero
 {
     private $phrases = ['I am the god of thunder and lightning' , 'Villain, yield, I will not order you again',
                         'Avengers assemble!'];
