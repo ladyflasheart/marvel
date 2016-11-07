@@ -4,7 +4,7 @@
  * Interface for Marvel package superheroes
  */
 
-namespace Marvel\Interfaces;
+namespace LadyF\Marvel\Interfaces;
 
 interface MarvelSuperhero
 {

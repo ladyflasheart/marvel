@@ -1,21 +1,20 @@
 <?php
 
 /**
- * Hero Thor class
+ * Hero Incredible Hulk class
  */
 
-namespace Marvel\Classes;
+namespace LadyF\Marvel\Classes;
 
-use Marvel\Interfaces\MarvelSuperhero;
+use LadyF\Marvel\Interfaces\MarvelSuperhero;
 
-class Thor implements MarvelSuperhero
+class Hulk implements MarvelSuperhero
 {
-    private $phrases = ['I am the god of thunder and lightning' , 'Villain, yield, I will not order you again',
-                        'Avengers assemble!'];
+    private $phrases = ['Don\'t make me angry - you wouldn\'t like me when I\'m angry' , 'Grrrrrrrrrrr', 'Hulk Smash'];
 
-    private $clothing = ['breastplate', 'cape', 'horned helmet'];
+    private $clothing = ['ripped trousers'];
 
-    private $powers = ['mighty strength', 'mystical hammer Mjolnir', 'ability to control the weather'];
+    private $powers = ['massive strength', 'fighting rage'];
 
 
     public function talk()
